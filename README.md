@@ -58,3 +58,10 @@ Sanatçı: Örnek Sanatçı
 Bağlantı: YouTube Music bağlantısı
 ```
 
+## Gelecek Geliştirmeler
+
+- Terminal tabanlı uygulamayı görsel arayüze sahip bir uygulamaya dönüştürmek.
+- Kullanıcı dostu bir arayüz tasarlamak.
+- Hava durumuna göre müzik önerilerini görsel olarak sunmak.
+- Kullanıcının şehir seçimini ve müzik önerilerini daha etkileşimli hâle getirmek.
+
