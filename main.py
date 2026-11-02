@@ -12,7 +12,7 @@ def sehir_bul(sehir):
 
   parametreler= {
     "name" : sehir ,
-    "count" : 1 ,   # Kaç sonuç getireleceği
+    "count" : 1 ,   
     "language" : "tr" ,
     "format" : "json"
     }
@@ -139,7 +139,7 @@ while True:
 
 sehir_verileri=sehir_bul(sehir)
 
-if sehir_verileri is None: # Eğer sehir_bul()dan none gelirse burası çalışır.
+if sehir_verileri is None: 
   sys.exit()
 
 if "results" in sehir_verileri and sehir_verileri["results"]:
@@ -178,5 +178,5 @@ if "results" in sehir_verileri and sehir_verileri["results"]:
 
 else:
     print("Şehir bulunamadı!")
-    sys.exit()  # programı kontrollü bir biçimde sonlandırır.
+    sys.exit() 
 
